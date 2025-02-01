@@ -21,22 +21,28 @@
 	TotalVirtualMemory="2047"
 	TotalPhysicalMemory="15689"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3400"
+	ProcessorClockFrequency="800.004"
 	>
 	<Testing>
-		<StartDateTime>Feb 01 15:56 CET</StartDateTime>
-		<StartTestTime>1738421769</StartTestTime>
+		<StartDateTime>Feb 01 16:27 CET</StartDateTime>
+		<StartTestTime>1738423638</StartTestTime>
 		<TestList>
 			<Test>./test/ExampleTests</Test>
 		</TestList>
-		<Test Status="passed">
+		<Test Status="failed">
 			<Name>ExampleTests</Name>
 			<Path>./test</Path>
 			<FullName>./test/ExampleTests</FullName>
 			<FullCommandLine>/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test/ExampleTests</FullCommandLine>
 			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00648232</Value>
+					<Value>0.0068698</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -48,12 +54,12 @@
 					<Value>/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test/ExampleTests</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJwLKs3Ly8xLV8hNzMzT0FRIK8rPVdDT00/Pz0/PSS1JLS5BZhYXJeung1jxIOV6yclc0bZwEKsQBDXLQAGkphhiGISjUFyaCaT1UDXgVqhQlJinp6BhoJBbrFCSX5KYo8kVraAQ4Bgc7OqioADXqccFAJo5PnU=</Value>
+					<Value encoding="base64" compression="gzip">eJy1Uk1PAjEQvfdXjDdIpED0YDbxQMKCJmoMrHogxJQyuzTptms/AP+93V1A1gSDB+c0nXnzXt50Jl4poTLImVCtNqRG50BpN9M6k+jQuuPUGt7Nyuy9hFPOyez2EHOY7Lj6UGJqrl1uvXBIyaxziDmMpV4wWfdRrYXRKkcVsOg6vvgBPuaMtywvJCahYMkMJi9PUMW80aFDzLWyzjCH47LyyLjRlgR3lZkGlhdFdBPBiAnpDZJXJj2CTiNImbRIAAbceSb373hbIHe4jMAZj+Q0Z//qm3Q/BPgRqIT7DALgVmgR1qWejYJOxQeQesWd0KpPSmNvK8FXIOxe/he96//QS+6EPUBCTUhchrggYfswGtw/xMMztw+tHuS2fd7f1mBw2jHZJucdj0NmOku9Uc3TPHWSYJiiTZ1g6XkwndaWehXW0qbRmuESpLDlfhco9Sb68y4ICUS7iSSeJuQLXyYm9A==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Feb 01 15:56 CET</EndDateTime>
-		<EndTestTime>1738421769</EndTestTime>
+		<EndDateTime>Feb 01 16:27 CET</EndDateTime>
+		<EndTestTime>1738423638</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

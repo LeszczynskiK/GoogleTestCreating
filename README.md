@@ -45,7 +45,7 @@ to make sure everything is compiled okey...
 
 rm -rf build (remove build -r recursively -f force(no asking about permition))
 
-
+11. Press F7 to compile! And see the results of tests..
 
 
 

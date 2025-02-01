@@ -1,22 +1,51 @@
-Start testing: Feb 01 15:56 CET
+Start testing: Feb 01 16:27 CET
 ----------------------------------------------------------
 1/1 Testing: ExampleTests
 1/1 Test: ExampleTests
 Command: "/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test/ExampleTests"
 Directory: /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test
-"ExampleTests" start time: Feb 01 15:56 CET
+"ExampleTests" start time: Feb 01 16:27 CET
 Output:
 ----------------------------------------------------------
 Running main() from ../googletest/googletest/src/gtest_main.cc
-[==========] Running 0 tests from 0 test suites.
-[==========] 0 tests from 0 test suites ran. (0 ms total)
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExampleTests
+[ RUN      ] ExampleTests.DemonstrateGTestMacros
+../test/ExampleTests.cpp:8: Failure
+Value of: false
+  Actual: false
+Expected: true
+
+../test/ExampleTests.cpp:13: Failure
+Expected equality of these values:
+  true
+  function1
+    Which is: false
+
+../test/ExampleTests.cpp:14: Failure
+Expected equality of these values:
+  true
+  function1
+    Which is: false
+THis function failedddd!
+
+[  FAILED  ] ExampleTests.DemonstrateGTestMacros (0 ms)
+[----------] 1 test from ExampleTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ExampleTests.DemonstrateGTestMacros
+
+ 1 FAILED TEST
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
-Test Passed.
-"ExampleTests" end time: Feb 01 15:56 CET
+Test Failed.
+"ExampleTests" end time: Feb 01 16:27 CET
 "ExampleTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 01 15:56 CET
+End testing: Feb 01 16:27 CET
