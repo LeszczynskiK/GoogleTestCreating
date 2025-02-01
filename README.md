@@ -66,7 +66,7 @@ gtest_main #target provided by google_test (ready program made by google which i
 Example #My file here
 )#things I depend on
 
-#let to know CMake that this is actually unit test:
+#let to know CMake that this is actually unit test
 add_test(
     NAME ${This} #this .txt is connected with test
     COMMAND ${This} #this .txt is connected with test
