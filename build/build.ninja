@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: GOOGLETEST
+# Project: GoogleTest
 # Configuration: Debug
 # =============================================================================
 
@@ -107,35 +107,35 @@ build CMakeFiles/test.util: CUSTOM_COMMAND
 build test: phony CMakeFiles/test.util
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target GOOGLETEST
+# Object build statements for STATIC_LIBRARY target GoogleTest
 
 
 #############################################
-# Order-only phony target for GOOGLETEST
+# Order-only phony target for GoogleTest
 
-build cmake_object_order_depends_target_GOOGLETEST: phony || CMakeFiles/GOOGLETEST.dir
+build cmake_object_order_depends_target_GoogleTest: phony || CMakeFiles/GoogleTest.dir
 
-build CMakeFiles/GOOGLETEST.dir/Example.cpp.o: CXX_COMPILER__GOOGLETEST ../Example.cpp || cmake_object_order_depends_target_GOOGLETEST
-  DEP_FILE = CMakeFiles/GOOGLETEST.dir/Example.cpp.o.d
+build CMakeFiles/GoogleTest.dir/Example.cpp.o: CXX_COMPILER__GoogleTest ../Example.cpp || cmake_object_order_depends_target_GoogleTest
+  DEP_FILE = CMakeFiles/GoogleTest.dir/Example.cpp.o.d
   FLAGS = -g -fPIC   -std=gnu++11
-  OBJECT_DIR = CMakeFiles/GOOGLETEST.dir
-  OBJECT_FILE_DIR = CMakeFiles/GOOGLETEST.dir
+  OBJECT_DIR = CMakeFiles/GoogleTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/GoogleTest.dir
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target GOOGLETEST
+# Link build statements for STATIC_LIBRARY target GoogleTest
 
 
 #############################################
-# Link the static library libGOOGLETEST.a
+# Link the static library libGoogleTest.a
 
-build libGOOGLETEST.a: CXX_STATIC_LIBRARY_LINKER__GOOGLETEST CMakeFiles/GOOGLETEST.dir/Example.cpp.o
+build libGoogleTest.a: CXX_STATIC_LIBRARY_LINKER__GoogleTest CMakeFiles/GoogleTest.dir/Example.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles/GOOGLETEST.dir
+  OBJECT_DIR = CMakeFiles/GoogleTest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = libGOOGLETEST.a
-  TARGET_PDB = GOOGLETEST.a.dbg
+  TARGET_FILE = libGoogleTest.a
+  TARGET_PDB = GoogleTest.a.dbg
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -600,7 +600,7 @@ build test/test: phony test/CMakeFiles/test.util
 #############################################
 # Order-only phony target for ExampleTests
 
-build cmake_object_order_depends_target_ExampleTests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target_ExampleTests: phony || cmake_object_order_depends_target_GoogleTest cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
 build test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o: CXX_COMPILER__ExampleTests ../test/ExampleTests.cpp || cmake_object_order_depends_target_ExampleTests
   DEP_FILE = test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o.d
@@ -617,9 +617,9 @@ build test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o: CXX_COMPILER__Example
 #############################################
 # Link the executable test/ExampleTests
 
-build test/ExampleTests: CXX_EXECUTABLE_LINKER__ExampleTests test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o | lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build test/ExampleTests: CXX_EXECUTABLE_LINKER__ExampleTests test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o | lib/libgtest_main.a libGoogleTest.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a libGoogleTest.a
   FLAGS = -g
-  LINK_LIBRARIES = lib/libgtest_main.a  -lEXAMPLE  lib/libgtest.a  -lpthread
+  LINK_LIBRARIES = lib/libgtest_main.a  libGoogleTest.a  lib/libgtest.a  -lpthread
   OBJECT_DIR = test/CMakeFiles/ExampleTests.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -631,7 +631,7 @@ build test/ExampleTests: CXX_EXECUTABLE_LINKER__ExampleTests test/CMakeFiles/Exa
 
 build ExampleTests: phony test/ExampleTests
 
-build GOOGLETEST: phony libGOOGLETEST.a
+build GoogleTest: phony libGoogleTest.a
 
 build gmock: phony lib/libgmock.a
 
@@ -657,7 +657,7 @@ build libgtest_main.a: phony lib/libgtest_main.a
 #############################################
 # Folder: /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build
 
-build all: phony libGOOGLETEST.a googletest/all test/all
+build all: phony libGoogleTest.a googletest/all test/all
 
 # =============================================================================
 

@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build",
-  "command": "/usr/bin/g++    -g -fPIC   -std=gnu++11 -o CMakeFiles/GOOGLETEST.dir/Example.cpp.o -c /home/krzysiek89/Desktop/CPP_programs/GoogleTest/Example.cpp",
+  "command": "/usr/bin/g++    -g -fPIC   -std=gnu++11 -o CMakeFiles/GoogleTest.dir/Example.cpp.o -c /home/krzysiek89/Desktop/CPP_programs/GoogleTest/Example.cpp",
   "file": "/home/krzysiek89/Desktop/CPP_programs/GoogleTest/Example.cpp"
 },
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13) #set your downloaded version
 
-set(This GOOGLETEST)#name of your name file here 
+set(This GoogleTest)#name of your name file here 
 
 project(${This} C CXX)#project(this) works with c (C) and c++ (CXX)
 

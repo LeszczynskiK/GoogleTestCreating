@@ -1,3 +1,22 @@
-Start testing: Feb 01 15:15 CET
+Start testing: Feb 01 15:56 CET
 ----------------------------------------------------------
-End testing: Feb 01 15:15 CET
+1/1 Testing: ExampleTests
+1/1 Test: ExampleTests
+Command: "/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test/ExampleTests"
+Directory: /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test
+"ExampleTests" start time: Feb 01 15:56 CET
+Output:
+----------------------------------------------------------
+Running main() from ../googletest/googletest/src/gtest_main.cc
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ExampleTests" end time: Feb 01 15:56 CET
+"ExampleTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 01 15:56 CET

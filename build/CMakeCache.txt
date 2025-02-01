@@ -192,7 +192,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=GOOGLETEST
+CMAKE_PROJECT_NAME:STATIC=GoogleTest
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.15.2
@@ -280,6 +280,12 @@ GOOGLETEST_SOURCE_DIR:STATIC=/home/krzysiek89/Desktop/CPP_programs/GoogleTest
 //Use Abseil and RE2. Requires Abseil and RE2 to be separately
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
+
+//Value Computed by CMake
+GoogleTest_BINARY_DIR:STATIC=/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build
+
+//Value Computed by CMake
+GoogleTest_SOURCE_DIR:STATIC=/home/krzysiek89/Desktop/CPP_programs/GoogleTest
 
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)

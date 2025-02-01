@@ -5,7 +5,7 @@
 /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/CMakeFiles/rebuild_cache.dir
 /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/CMakeFiles/edit_cache.dir
 /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/CMakeFiles/test.dir
-/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/CMakeFiles/GOOGLETEST.dir
+/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/CMakeFiles/GoogleTest.dir
 /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/googletest/CMakeFiles/install/strip.dir
 /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/googletest/CMakeFiles/install/local.dir
 /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/googletest/CMakeFiles/install.dir

@@ -12,7 +12,7 @@ add_executable(${This} ${Sources} )#executable - program itself
 
 target_link_libraries(${This} PUBLIC
 gtest_main #target provided by google_test (ready program made by google which i link to my program)
-EXAMPLE #My file here
+GoogleTest #My file here
 )#things I depend on
 
 #let to know CMake that this is actually unit test:
