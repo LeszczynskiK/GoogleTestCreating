@@ -68,8 +68,8 @@ Example #My file here
 
 #let to know CMake that this is actually unit test:
 add_test(
-    NAME ${This}#this .txt is connected with test
-    COMMAND ${This}#this .txt is connected with test
+    NAME ${This} #this .txt is connected with test
+    COMMAND ${This} #this .txt is connected with test
 )
 
 7. Create ExampleTests.cpp in test folder
