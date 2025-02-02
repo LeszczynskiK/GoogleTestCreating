@@ -12,7 +12,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)#if using shared libraries(libraries used
 
 enable_testing() #let to know that you are going to have unit tests
 
-add_subdirectory(googletest)#add dependancies used in workspace
+add_subdirectory(googletest)#add dependancies used in workspace(it is from google repo on github)
 
 #What are we gonna build in our code:
 set(Headers

@@ -1,0 +1,47 @@
+Start testing: Feb 02 12:20 CET
+----------------------------------------------------------
+1/1 Testing: ExampleTests
+1/1 Test: ExampleTests
+Command: "/home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test/ExampleTests"
+Directory: /home/krzysiek89/Desktop/CPP_programs/GoogleTest/build/test
+"ExampleTests" start time: Feb 02 12:20 CET
+Output:
+----------------------------------------------------------
+Running main() from ../googletest/googletest/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from ExampleTests
+[ RUN      ] ExampleTests.function1
+[       OK ] ExampleTests.function1 (0 ms)
+[ RUN      ] ExampleTests.Square
+[       OK ] ExampleTests.Square (0 ms)
+[ RUN      ] ExampleTests.Square1
+../googletest/googletest/src/gtest.cc:2577: Failure
+Failed
+All tests in the same test suite must use the same test fixture
+class, so mixing TEST_F and TEST in the same test suite is
+illegal.  In test suite ExampleTests,
+test Square1 is defined using TEST_F but
+test function1 is defined using TEST.  You probably
+want to change the TEST to TEST_F or move it to another test
+case.
+
+[  FAILED  ] ExampleTests.Square1 (0 ms)
+[----------] 3 tests from ExampleTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ExampleTests.Square1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"ExampleTests" end time: Feb 02 12:20 CET
+"ExampleTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 02 12:20 CET
